@@ -1,0 +1,11 @@
+.container {
+  margin: 5%;
+  padding: 1%;
+  background-color: aquamarine;
+}
+
+img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
