@@ -1,15 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
 import Container from "../components/container"
+import BarChart from "../components/barChart"
+import LineChart from "../components/lineChart"
+import PieChart from "../components/pieChart"
+
 export default () => (
   <Layout style={{ margin: `3rem auto`, maxWidth: 600 }}>
     <Container>
       <img src="gädda.jpeg" />
       <p>
-        Tjena Tobias jag lyckades inte göra min första ide, som var att bygga om
-        min gammla portfolio... Så jag la bara in lite bilder och ändrade i
-        css:n...
+        Here you can see some statistics over pikefishing and, pikefishers over
+        the years.
       </p>
+      <BarChart />
+      <LineChart />
+      <PieChart />
     </Container>
   </Layout>
 )
